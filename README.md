@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Todo App with Redux & Local Storage
 
-## Getting Started
+A feature-rich and visually appealing Todo application built with Next.js, TypeScript, Tailwind CSS, Redux Toolkit, and Shadon UI. 
+![Screenshot 2024-03-30 201317](https://github.com/tehseen01/todo-app/assets/86504467/61eb276a-b780-4116-8ba3-f7aebd9cf778)
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Efficient Todo Management:** Effortlessly create, view, edit, and delete tasks.
+- **Prioritization:** Mark tasks as completed to track your progress.
+- **Search & Filter:** Quickly locate specific tasks using search functionality.
+- **Organized Views:** Filter your todos by "All," "Pending," or "Completed" for better organization.
+- **Persistent Storage:** Store your todos locally in the browser, keeping them accessible even after refreshing the page.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js:** Server-side rendering (SSR) framework for a smooth user experience.
+- **TypeScript:** Enhanced development experience with type safety and reduced errors.
+- **Tailwind CSS:** Utility-first CSS framework for rapid and responsive styling.
+- **Redux Toolkit:** Streamlined state management with simplified reducer and action creation.
+- **Shadon UI:** Ready-made UI components for an attractive and consistent design.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone this repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/tehseen01/todo-app.git
+   ```
+2. Install dependencies:
+   
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+      ```bash
+   npm run dev
+   ```
+      
+This will launch the application at http://localhost:3000 by default.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+- Create and manage your tasks through the intuitive interface.
+- Use the search bar to locate specific items by title.
+- Filter your todos by "All," "Pending," or "Completed" for better organization.
+- Mark tasks as complete as you achieve them, ensuring a clear progress overview.
+## Contributing
+We welcome contributions to this project.
